@@ -37,7 +37,7 @@ export default {
       repair: null,
       loading: true,
       errorMessage: null,
-      backendUrl: 'http://localhost:3000',
+      backendUrl: 'https://zvue.onrender.com',
     };
   },
   async created() {
