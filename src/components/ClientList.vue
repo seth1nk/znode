@@ -63,7 +63,7 @@ export default {
       currentPage: 1,
       totalPages: 0,
       pageSize: 10,
-      backendUrl: 'http://localhost:3000',
+      backendUrl: 'https://zvue.onrender.com',
     };
   },
   async created() {
