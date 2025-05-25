@@ -3,9 +3,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <div class="app-container">
       <h1 class="page-title">Список ремонтов</h1>
-      <div style="text-align: center; margin-bottom: 20px;">
-        <router-link to="/repairs/create" class="btn-primary">Добавить ремонт</router-link>
-      </div>
       <div class="table-container">
         <table class="styled-table repairs-table">
           <thead>
@@ -42,7 +39,7 @@
               </td>
               <td>
                 <div class="action-buttons">
-                  <router-link :to="`/repairs/view/${item.id}`" class="action-btn view-icon"><i class="fas fa-eye"></i></router-link>
+                  <router-link :to="`/view-repairs/${item.id}`" class="action-btn view-icon"><i class="fas fa-eye"></i></router-link>
                 </div>
               </td>
             </tr>
